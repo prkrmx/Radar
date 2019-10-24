@@ -53,3 +53,6 @@ using System.Windows;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+// App.config was added to enable Log4Net logger
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "Log.config", Watch = true)]
